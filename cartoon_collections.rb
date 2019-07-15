@@ -1,6 +1,6 @@
 # print out array elements in a numbered list
 def roll_call_dwarves(array)
-  dwarves.each_with_index{ |elem,i| puts "#{i+1}. #{elem}" }
+  array.each_with_index{ |elem,i| puts "#{i+1}. #{elem}" }
 end
 
 
