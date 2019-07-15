@@ -9,7 +9,7 @@ def summon_captain_planet(array)
 end
 
 # check if any element is longer than 4 characters
-def long_planeteer_calls(array))
+def long_planeteer_calls(array)
   array.any?{ |elem| elem.length > 4 }
 end
 
